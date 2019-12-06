@@ -11,5 +11,5 @@ output
 !output/.gitkeep
 build
 .classpath
-
+Screenshots/*
 .project
