@@ -1,15 +1,11 @@
 .gradle
-
 bin
-
 Reports
-
 Libs
-
 output
-
 !output/.gitkeep
 build
 .classpath
+screenshots
 !screenshots/.gitkeep
 .project

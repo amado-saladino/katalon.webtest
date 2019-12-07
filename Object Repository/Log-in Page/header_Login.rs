@@ -6,6 +6,10 @@
    <elementGuidId>aed9d5bc-d1b2-4ecd-a3ba-875a95528e0d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//h2[(text() = 'Login' or . = 'Login')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//section[@id='login']/div/div/div/h2</value>
       </entry>
@@ -13,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

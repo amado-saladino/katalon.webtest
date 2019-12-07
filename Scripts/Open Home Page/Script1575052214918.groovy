@@ -14,13 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import utils.Utilities
+import utils.Utilities as Utilities
 
 Utilities util = new Utilities()
 
 WebUI.verifyMatch(WebUI.getWindowTitle(), 'CURA Healthcare Service', false)
+
 WebUI.click(findTestObject('Object Repository/SideMenu/a_menu-toggle'))
 
 WebUI.click(findTestObject('SideMenu/a_Login'))
-WebUI.takeScreenshot('screenshots/login' + util.getTime() + '.png')
+
+WebUI.takeScreenshot(('screenshots/login' + util.getTime()) + '.png')
 
